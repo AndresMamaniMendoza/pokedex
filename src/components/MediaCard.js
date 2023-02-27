@@ -12,7 +12,7 @@ import { lightGreen, red } from '@mui/material/colors';
 
 export default function MediaCard({ id, name, image, weight, abilities, weaknesses, type, stats}) {
     return (
-        <Card sx={{ width: 345, marginTop: '100px', border: '15px solid',  borderRadius: '10px', borderColor: red[500]}}>
+        <Card sx={{ width: 345, marginTop: '20px', border: '15px solid',  borderRadius: '10px', borderColor: red[500]}}>
 
             <CardHeader sx={{ backgroundColor: red[300] }}
                 avatar={
